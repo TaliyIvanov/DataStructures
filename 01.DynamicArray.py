@@ -52,7 +52,7 @@ class MyDynamicArray:
         self.array[index] = value
 
 def process_commands():
-    arr = DynamicArray()
+    arr = MyDynamicArray()
     n = int(input())
     for _ in range(n):
         command = input().strip()
