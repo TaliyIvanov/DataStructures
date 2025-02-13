@@ -8,48 +8,50 @@
 Также должен быть реализован метод взятия и изменения элемента по индексу - по [] - как у стандартного массива.
 """
 
+
 class MyDynamicArray:
     def __init__(self):
-        self.size = 0 # кол-во элементов в массиве
-        self.capacity = 1 # начальная емкость массива
-        self.array = [None] * self.capacity
+        self._size = 0  # Количество элементов в массиве
+        self._capacity = 1  # Начальная емкость массива
+        self.array = [None] * self._capacity # Начальное значение массива 1 элемент None
 
     def size(self):
-        return self.size
+        return self._size
 
     def capacity(self):
-        return self.capacity
+        return self._capacity
 
     def push_back(self, item):
-        if self.size == self.capacity:
-            self._resize(2 * self.capacity)
-        self.array[self.size] = item
-        self.size += 1
+        if self._size == self._capacity:
+            self._resize(2 * self._capacity)
+        self.array[self._size] = item
+        self._size += 1
 
     def pop_back(self):
-        if self.size == 0:
+        if self._size == 0:
             raise IndexError("Cannot pop from empty array")
-        item = self.array[self.size - 1]
-        self.array[self.size - 1] = None
-        self.size -= 1
+        item = self.array[self._size - 1]
+        self.array[self._size - 1] = None
+        self._size -= 1
         return item
 
     def _resize(self, new_capacity):
         new_array = [None] * new_capacity
-        for i in range(self.size):
+        for i in range(self._size):
             new_array[i] = self.array[i]
         self.array = new_array
-        self.capacity = new_capacity
+        self._capacity = new_capacity
 
     def __getitem__(self, index):
-        if not 0 <= index < self.size:
+        if not 0 <= index < self._size:
             raise IndexError("Index out of bounds")
         return self.array[index]
 
     def __setitem__(self, index, value):
-        if not 0 <= index < self.size:
+        if not 0 <= index < self._size:
             raise IndexError("Index out of bounds")
         self.array[index] = value
+
 
 def process_commands():
     arr = MyDynamicArray()
@@ -70,3 +72,4 @@ def process_commands():
 
 if __name__ == "__main__":
     process_commands()
+
