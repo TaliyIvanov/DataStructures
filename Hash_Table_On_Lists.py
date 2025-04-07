@@ -4,6 +4,8 @@
 
 
 class HashTableOnLists:
+
+    # конструктор класса
     def __init__(self, capacity = 10):
         self._capacity = capacity
         self._size = 0
@@ -14,6 +16,7 @@ class HashTableOnLists:
     # присваивает хэш равный остатку от значения self._capacity
     def _hash(self, key):
         return hash(key) % self._capacity
+
     # находит и возвращает элемент по ключу
     def find(self, key):
         index = self._hash(key)
@@ -34,6 +37,7 @@ class HashTableOnLists:
                 self._resize()
         else:
             print(f'{key} есть в таблице.')
+
     # удаляет и возвращает элемент
     def pop(self, key):
         index = self._hash(key)
@@ -54,10 +58,12 @@ class HashTableOnLists:
         for bucket in old_array:
             for key in bucket:
                 self.push(key)
-    # возвращаем доступные методы
+
+    # Строковое представление объекта HashTableOnLists
     def __str__(self):
         return str(self.array)
 
+# Тесты
 import unittest
 
 class TestHashTableOnLists(unittest.TestCase):
