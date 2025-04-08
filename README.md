@@ -13,20 +13,19 @@ Here I am writing DataStructures in Python.
 
 ## Data Structures
 ### Arrays
-- [Static Array]()
-- [Dynamic Array]()
+- [Static Array](https://github.com/TaliyIvanov/DataStructures/blob/main/ADT_StaticArray.py)
+- [Dynamic Array](https://github.com/TaliyIvanov/DataStructures/blob/main/DynamicArray.py)
 
 ### Lists
-- [Linked List]()
-- [Two Linked List]()
+- [Linked List](https://github.com/TaliyIvanov/DataStructures/blob/main/ADT_Linked%20list.py)
+- [Double Linked List](https://github.com/TaliyIvanov/DataStructures/blob/main/Double%20Linked%20List.py)
 
 ### Stacks
-- [Stack on List]()
-- [Stack on array]()
+- [Stack on List](https://github.com/TaliyIvanov/DataStructures/blob/main/StackOnList.py)
 
 ### Queues
-- [Queue]()
-- [Deque]()
+- [Queue](https://github.com/TaliyIvanov/DataStructures/blob/main/Queue_on_List.py)
+- [Deque](https://github.com/TaliyIvanov/DataStructures/blob/main/Queue_on_deque.py)
 
 ### Trees
 - [Binary Tree]()
@@ -34,14 +33,13 @@ Here I am writing DataStructures in Python.
 - [AVL Tree]()
 
 ### Graphs
-- []()
 
 ### HashTables
-- [Hash Table Separate Chaining]()
+- [Hash Table Separate Chaining](https://github.com/TaliyIvanov/DataStructures/blob/main/Hash_Table_On_Lists.py)
 - [Hash Table Open addressing]()
 
 ### Heaps
-- [MinHeap]()
+- [MinHeap](https://github.com/TaliyIvanov/DataStructures/blob/main/Heap.py)
 - [MaxHeap]()
 - [FibonacciHeap]()
 - [BinaryHeap]()
