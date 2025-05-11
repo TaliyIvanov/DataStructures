@@ -27,12 +27,18 @@ Here I am writing DataStructures in Python.
 - [Queue](https://github.com/TaliyIvanov/DataStructures/blob/main/Queue_on_List.py)
 - [Deque](https://github.com/TaliyIvanov/DataStructures/blob/main/Queue_on_deque.py)
 
-### Trees
+
+
+### Graphs
+- [Список смежности]()
+- [Список инцидентности]()
+- [Матрица смежности]()
+- [Матрица инцидентности]()
+
+#### Trees as a special case of graphs
 - [Binary Tree]()
 - [Decart Tree]()
 - [AVL Tree]()
-
-### Graphs
 
 ### HashTables
 - [Hash Table Separate Chaining](https://github.com/TaliyIvanov/DataStructures/blob/main/Hash_Table_On_Lists.py)
