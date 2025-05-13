@@ -27,8 +27,6 @@ Here I am writing DataStructures in Python.
 - [Queue](https://github.com/TaliyIvanov/DataStructures/blob/main/Queue_on_List.py)
 - [Deque](https://github.com/TaliyIvanov/DataStructures/blob/main/Queue_on_deque.py)
 
-
-
 ### Graphs
 - [Список Ребер (EdgeList)](https://github.com/TaliyIvanov/DataStructures/blob/main/Graph_on_EdgeList.py)
 - [Списки смежности (Adjacency List)]()
