@@ -2,12 +2,12 @@
 Here i will realize class Graph on EdgeList
 
 Complexity:
-Memory - O(E)
+Memory - O(V^2)
 AddVertex - O(1)
-AddEdge - O(E)
-RemoveEdge - O(E)
-FindEdge - O(E)
-GetNeighbors - O(E)
+AddEdge - O(1)
+RemoveEdge - O(1)
+FindEdge - O(V)
+GetNeighbors - O(V)
 """
 
 class GraphOnAdjacencyMatrix:
