@@ -30,7 +30,7 @@ Here I am writing DataStructures in Python.
 ### Graphs
 - [Список Ребер (EdgeList)](https://github.com/TaliyIvanov/DataStructures/blob/main/Graph_on_EdgeList.py)
 - [Списки смежности (Adjacency List)](https://github.com/TaliyIvanov/DataStructures/blob/main/GraphOnAdjacencyList.py)
-- [Матрица смежности (Adjacency Matrix)]()
+- [Матрица смежности (Adjacency Matrix)](https://github.com/TaliyIvanov/DataStructures/blob/main/GraphOnAdjacencyMatrix.py)
 
 #### Trees as a special case of graphs
 - [Binary Tree]()
